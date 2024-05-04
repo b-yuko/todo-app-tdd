@@ -11,6 +11,9 @@ module.exports = {
     'plugin:react/recommended',
     'plugin:react/jsx-runtime',
     'plugin:jsx-a11y/recommended',
+    'plugin:testing-library/react',
+    'plugin:testing-library/dom',
+    'plugin:jest-dom/recommended',
     'prettier'
   ],
   ignorePatterns: ['dist', '.eslintrc.cjs'],
@@ -24,7 +27,9 @@ module.exports = {
   plugins: [
       'react',
       'react-refresh',
-      'jsx-a11y'
+      'jsx-a11y',
+      'testing-library',
+      'jest-dom'
   ],
   rules: {
     'react-refresh/only-export-components': [
