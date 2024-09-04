@@ -12,6 +12,17 @@
 - Data Base
     - PostgreSQL
 
-## 使用するもの
+## 使用端末/エディター
 - MackBook Pro
-- IntelliJ IDEA(有償版)
+- IntelliJ IDEA (Ultimate Edition)
+
+## 開発用ブランチ
+- main
+
+## 開発環境構築
+### Frontend
+```shell
+cd frontend
+npm install
+npm run dev
+```
